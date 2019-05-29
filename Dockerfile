@@ -13,8 +13,8 @@ RUN apt-get update \
     && apt-get -y install git procps lsb-release \
 # Install C++ tools
     && apt-get -y install build-essential cmake cppcheck valgrind \
-# Install zsh, locales, git-flow vim
-    && apt-get -y install zsh less locales git-flow vim \
+# Install curl zsh, locales, git-flow vim
+    && apt-get -y install curl zsh less locales git-flow vim \
 # Clean up
     && apt-get autoremove -y \
     && apt-get clean -y \
